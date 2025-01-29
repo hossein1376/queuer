@@ -1,0 +1,14 @@
+worker:
+  # HTTP server address
+  address: 127.0.0.1:3003
+  # order processing deadline
+  timeout: 5s
+  # maximum number of worker goroutines, 0 for unlimited
+  max-jobs: 2950
+streamer:
+  # endpoint to send order requests
+  address: http://127.0.0.1:3003
+  # interval between sending each request
+  interval: 1ms
+  # order's processing duration will be a random integer in [0, seed)
+  process-time-seed: 8
