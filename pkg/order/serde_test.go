@@ -8,8 +8,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/hossein1376/querier/pkg/model"
-	"github.com/hossein1376/querier/pkg/order"
+	"github.com/hossein1376/queuer/pkg/model"
+	"github.com/hossein1376/queuer/pkg/order"
 )
 
 func TestEncode_Decode(t *testing.T) {

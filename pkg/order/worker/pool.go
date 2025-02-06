@@ -3,9 +3,9 @@ package worker
 import (
 	"time"
 
-	"github.com/hossein1376/querier/pkg/model"
-	"github.com/hossein1376/querier/pkg/order"
-	"github.com/hossein1376/querier/pkg/order/stats"
+	"github.com/hossein1376/queuer/pkg/model"
+	"github.com/hossein1376/queuer/pkg/order"
+	"github.com/hossein1376/queuer/pkg/order/stats"
 )
 
 // pool controls the goroutines worker pool, run the order processing

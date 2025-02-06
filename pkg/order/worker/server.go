@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/hossein1376/querier/pkg/order"
+	"github.com/hossein1376/queuer/pkg/order"
 )
 
 // serve starts an HTTP server on the provided address.

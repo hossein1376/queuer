@@ -8,9 +8,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/hossein1376/querier/config"
-	"github.com/hossein1376/querier/pkg/model"
-	"github.com/hossein1376/querier/pkg/order"
+	"github.com/hossein1376/queuer/config"
+	"github.com/hossein1376/queuer/pkg/model"
+	"github.com/hossein1376/queuer/pkg/order"
 )
 
 type streamer struct {

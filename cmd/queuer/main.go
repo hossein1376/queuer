@@ -6,9 +6,9 @@ import (
 	"os"
 	"os/signal"
 
-	"github.com/hossein1376/querier/config"
-	"github.com/hossein1376/querier/pkg/order/worker"
-	"github.com/hossein1376/querier/pkg/streamer"
+	"github.com/hossein1376/queuer/config"
+	"github.com/hossein1376/queuer/pkg/order/worker"
+	"github.com/hossein1376/queuer/pkg/streamer"
 )
 
 func main() {

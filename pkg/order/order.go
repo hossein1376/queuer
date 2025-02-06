@@ -5,7 +5,7 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/hossein1376/querier/pkg/model"
+	"github.com/hossein1376/queuer/pkg/model"
 )
 
 var (

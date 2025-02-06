@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/hossein1376/querier/config"
-	"github.com/hossein1376/querier/pkg/model"
+	"github.com/hossein1376/queuer/config"
+	"github.com/hossein1376/queuer/pkg/model"
 )
 
 // Run creates a new worker pool, runs the HTTP server, and starts

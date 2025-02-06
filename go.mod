@@ -1,4 +1,4 @@
-module github.com/hossein1376/querier
+module github.com/hossein1376/queuer
 
 go 1.23
 

@@ -1,4 +1,4 @@
-# Querier
+# Queuer
 
 Source code for a take-home task assignment, written by H. Yazdani
 from 27 January 2025, through 29th. It is sufficiently documented with
@@ -35,13 +35,13 @@ In the root of the project, build the image from the Dockerfile by
 running:
 
 ```shell
-docker build -t querier .
+docker build -t queuer .
 ```
 
 When you have the image ready, run the container with:
 
 ```shell
-docker run -v ./assets/cfg.yaml:/app/assets/cfg.yaml querier
+docker run -v ./assets/cfg.yaml:/app/assets/cfg.yaml queuer
 ```
 
 This command binds the config file to the container. Feel free to change
@@ -138,7 +138,7 @@ Here is a tree of the project's structure.
 ├── assets
 │     └── cfg.yaml
 ├── cmd
-│     └── querier
+│     └── queuer
 │         └── main.go
 ├── config
 │     └── config.go
@@ -170,7 +170,7 @@ Here is a tree of the project's structure.
 11 directories, 21 files
 ```
 
-### `cmd/querier`
+### `cmd/queuer`
 
 Hosts the main package, tasked with starting the application by getting
 the configurations and calling other packages. Also, it listens for the
@@ -197,7 +197,7 @@ versus the JSON serialize and deserializing functions:
 ```text
 goos: linux
 goarch: amd64
-pkg: github.com/hossein1376/querier/pkg/order
+pkg: github.com/hossein1376/queuer/pkg/order
 cpu: AMD Ryzen 7 7800X3D 8-Core Processor           
 BenchmarkEncode_Custom
 BenchmarkEncode_Custom-16   1000000000      0.2104 ns/op    0 B/op      0 allocs/op
